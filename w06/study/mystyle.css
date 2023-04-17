@@ -1,0 +1,9 @@
+/* mystyle.css */
+h1, a {
+    border: 5px red solid;
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    height: 100px;
+  }
+  
