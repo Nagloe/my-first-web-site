@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>노동자 명단</h1>
+    <h2>삼육 건설</h2>
+    <h3>오늘의 근무자</h3>
+    <script>
+        worker = ["김씨","이씨","박씨","최씨","정씨","강씨","조씨","윤씨","장씨","임씨"]
+        workerimg = ['1.png','2.png','3.png','4.png','5.png','6.png','7.png','8.png','9.png','10.png']
+        var i = 0;
+        while(i < worker.length){
+            document.write('<li><a href="https://ko.wikipedia.org/wiki/'+ worker[i] + '">' + worker[i] + '</a></li>');
+            document.write('<img src="' + workerimg[i] + '" wide="100" height="100">')
+            i = i + 1;
+        }
+    </script>
+</body>
+</html>
